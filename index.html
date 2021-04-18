@@ -21,7 +21,6 @@
 					<li><a href="#home">Home</a></li>
 					<li><a href="#about">About</a></li>
 					<li><a href="#contact">Contact</a></li>
-					<li><a href="#feedback">Feedback</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -44,11 +43,33 @@
 					 pulling from our seaside location in Takoradi. Complete the journey with our optional matching wines.</p>
 			</section>
 			<section id="contact">
-				<h2>Contact</h2>
-			</section>
-			<section id="feedback">
+				<h2>Contact Us</h2>
+				<div class="wrapper">
+					<div id="error_message"></div>
+					<form action="" id="myform" onsubmit = "return validate();">
+					  <div class="input_field">
+						  <input type="text" placeholder="Name" id="name">
+					  </div>
+					  <div class="input_field">
+						  <input type="text" placeholder="Subject" id="subject">
+					  </div>
+					  <div class="input_field">
+						  <input type="text" placeholder="Phone" id="phone">
+					  </div>
+					  <div class="input_field">
+						  <input type="text" placeholder="Email" id="email">
+					  </div>
+					  <div class="input_field">
+						  <textarea placeholder="Message" id="message"></textarea>
+					  </div>
+					  <div class="btnn">
+						  <input type="submit">
+					  </div>
+					</form>
+				  </div>
 			</section>
 			
 		</main>
+		<script src="site.js"></script>
 	</body>
 </html>
